@@ -152,6 +152,7 @@
     <Compile Include="Assets\Scripts\Puzzle\CollideCup.cs" />
     <Compile Include="Assets\Scripts\Puzzle\GlobalInventory.cs" />
     <Compile Include="Assets\Scripts\Puzzle\PuzzleLeftPickup.cs" />
+    <Compile Include="Assets\Scripts\Puzzle\PuzzlePlacement.cs" />
     <Compile Include="Assets\Scripts\Puzzle\PuzzleRightPickup.cs" />
     <Compile Include="Assets\Scripts\Shop\Shop.cs" />
     <Compile Include="Assets\Scripts\Shop\ShopDetector.cs" />

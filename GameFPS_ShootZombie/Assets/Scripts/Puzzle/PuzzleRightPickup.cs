@@ -15,8 +15,8 @@ public class PuzzleRightPickup : MonoBehaviour
     public GameObject rightImg;
     public GameObject puzzleText;
 
-    public GameObject fakeWall;
-    public GameObject realWall;
+    //public GameObject fakeWall;
+    //public GameObject realWall;
 
     //public GameObject Particle;
 
