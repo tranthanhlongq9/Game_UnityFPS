@@ -75,15 +75,15 @@
     <Compile Include="Assets\Flooded_Grounds\Scripts\FPSController\CharController_Motor.cs" />
     <Compile Include="Assets\Flooded_Grounds\Scripts\FPSDisplay.cs" />
     <Compile Include="Assets\Flooded_Grounds\Scripts\WaterFloat.cs" />
-    <Compile Include="Assets\Menu\Script\MainMenuFunction.cs" />
-    <Compile Include="Assets\Menu\Script\MainMenuFunction2.cs" />
-    <Compile Include="Assets\Menu\Script\MenuNext.cs" />
-    <Compile Include="Assets\Menu\Script\MenuNext1.cs" />
-    <Compile Include="Assets\Menu\Script\SavingGame.cs" />
-    <Compile Include="Assets\Menu\Script\SavingGame2.cs" />
-    <Compile Include="Assets\Menu\Script\SceneSequense.cs" />
-    <Compile Include="Assets\Menu\Script\SceneSequense1.cs" />
-    <Compile Include="Assets\Menu\Script\SettingVolume.cs" />
+    <Compile Include="Assets\MenuGame\Script\MainMenuFunction.cs" />
+    <Compile Include="Assets\MenuGame\Script\MainMenuFunction2.cs" />
+    <Compile Include="Assets\MenuGame\Script\MenuNext.cs" />
+    <Compile Include="Assets\MenuGame\Script\MenuNext1.cs" />
+    <Compile Include="Assets\MenuGame\Script\SavingGame.cs" />
+    <Compile Include="Assets\MenuGame\Script\SavingGame2.cs" />
+    <Compile Include="Assets\MenuGame\Script\SceneSequense.cs" />
+    <Compile Include="Assets\MenuGame\Script\SceneSequense1.cs" />
+    <Compile Include="Assets\MenuGame\Script\SettingVolume.cs" />
     <Compile Include="Assets\PostProcessing-1\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
     <Compile Include="Assets\PostProcessing-1\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
     <Compile Include="Assets\PostProcessing-1\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
@@ -137,6 +137,7 @@
     <Compile Include="Assets\Scripts\Enemy\Enemy.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyType.cs" />
     <Compile Include="Assets\Scripts\Enemy\KillReward.cs" />
+    <Compile Include="Assets\Scripts\Enviroment\CollideCup.cs" />
     <Compile Include="Assets\Scripts\Events\StartupText.cs" />
     <Compile Include="Assets\Scripts\Game\EnemySpawner.cs" />
     <Compile Include="Assets\Scripts\Game\FundSystem.cs" />
@@ -461,7 +462,7 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.25f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
     </Reference>
     <Reference Include="LitJson">
-      <HintPath>D:/Unity 3D/GameFPS_ShootZombie/Assets/LitJson.dll</HintPath>
+      <HintPath>D:/Unity 3D/DoAn_GameFPS/GameFPS_ShootZombie/Assets/LitJson.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.25f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -809,43 +810,43 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.25f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>D:/Unity 3D/GameFPS_ShootZombie/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>D:/Unity 3D/DoAn_GameFPS/GameFPS_ShootZombie/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProGrids">
-      <HintPath>D:/Unity 3D/GameFPS_ShootZombie/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
+      <HintPath>D:/Unity 3D/DoAn_GameFPS/GameFPS_ShootZombie/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>D:/Unity 3D/GameFPS_ShootZombie/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>D:/Unity 3D/DoAn_GameFPS/GameFPS_ShootZombie/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder">
-      <HintPath>D:/Unity 3D/GameFPS_ShootZombie/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
+      <HintPath>D:/Unity 3D/DoAn_GameFPS/GameFPS_ShootZombie/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.Editor">
-      <HintPath>D:/Unity 3D/GameFPS_ShootZombie/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
+      <HintPath>D:/Unity 3D/DoAn_GameFPS/GameFPS_ShootZombie/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
-      <HintPath>D:/Unity 3D/GameFPS_ShootZombie/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+      <HintPath>D:/Unity 3D/DoAn_GameFPS/GameFPS_ShootZombie/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProGrids.Editor">
-      <HintPath>D:/Unity 3D/GameFPS_ShootZombie/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
+      <HintPath>D:/Unity 3D/DoAn_GameFPS/GameFPS_ShootZombie/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/Unity 3D/GameFPS_ShootZombie/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>D:/Unity 3D/DoAn_GameFPS/GameFPS_ShootZombie/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>D:/Unity 3D/GameFPS_ShootZombie/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>D:/Unity 3D/DoAn_GameFPS/GameFPS_ShootZombie/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>D:/Unity 3D/GameFPS_ShootZombie/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>D:/Unity 3D/DoAn_GameFPS/GameFPS_ShootZombie/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>D:/Unity 3D/GameFPS_ShootZombie/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>D:/Unity 3D/DoAn_GameFPS/GameFPS_ShootZombie/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.AddOns.Editor">
-      <HintPath>D:/Unity 3D/GameFPS_ShootZombie/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+      <HintPath>D:/Unity 3D/DoAn_GameFPS/GameFPS_ShootZombie/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/Unity 3D/GameFPS_ShootZombie/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>D:/Unity 3D/DoAn_GameFPS/GameFPS_ShootZombie/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

@@ -345,7 +345,7 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="LitJson">
-      <HintPath>D:/Unity 3D/GameFPS_ShootZombie/Assets/LitJson.dll</HintPath>
+      <HintPath>D:/Unity 3D/DoAn_GameFPS/GameFPS_ShootZombie/Assets/LitJson.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.25f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
