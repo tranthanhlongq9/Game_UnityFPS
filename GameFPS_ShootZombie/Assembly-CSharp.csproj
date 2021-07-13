@@ -218,6 +218,7 @@
     <None Include="Assets\PostProcessing-1\PostProcessing\Resources\Shaders\FXAA3.cginc" />
     <None Include="Assets\PostProcessing-1\PostProcessing\Resources\Shaders\EyeAdaptation.shader" />
     <None Include="Assets\PostProcessing-1\PostProcessing\Utilities\CustomMotionTexture\Shaders\CustomMotionVectorTexture.shader" />
+    <None Include="Assets\Toby Fredson\Dwarven Expedition Pack - Stylized Assets\Materials\1. Main Material Folder.txt" />
     <None Include="Assets\PostProcessing-1\PostProcessing\Editor Resources\UI\CurveBackground.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\PostProcessing-1\PostProcessing\Resources\Shaders\BuiltinDebugViews.shader" />
@@ -228,10 +229,12 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
     <None Include="Assets\PostProcessing-1\PostProcessing\Resources\Shaders\TAA.cginc" />
     <None Include="Assets\PostProcessing-1\PostProcessing\Resources\Shaders\AmbientOcclusion.cginc" />
+    <None Include="Assets\Toby Fredson\Dwarven Expedition Pack - Stylized Assets\Models\1. Models.txt" />
     <None Include="Assets\Flooded_Grounds\Resources\TreeCreator\TreeCreatorBark.shader" />
     <None Include="Assets\PostProcessing-1\PostProcessing\Editor Resources\Monitors\VectorscopeCompute.compute" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\PostProcessing-1\PostProcessing\Resources\Shaders\ColorGrading.cginc" />
+    <None Include="Assets\Toby Fredson\Dwarven Expedition Pack - Stylized Assets\Textures\1. Main Texture Folder.txt" />
     <None Include="Assets\Flooded_Grounds\Resources\TreeCreator\TreeCreatorLeavesOptimized.shader" />
     <None Include="Assets\PostProcessing-1\PostProcessing\Editor Resources\Monitors\HistogramRender.shader" />
     <None Include="Assets\PostProcessing-1\PostProcessing\Resources\Shaders\UberSecondPass.cginc" />
@@ -263,6 +266,7 @@
     <None Include="Assets\Flooded_Grounds\Resources\TreeCreator\TreeCreatorBarkOptimized.shader" />
     <None Include="Assets\PostProcessing-1\PostProcessing\Resources\Shaders\Common.cginc" />
     <None Include="Assets\PostProcessing-1\PostProcessing\Editor Resources\Monitors\VectorscopeRender.shader" />
+    <None Include="Assets\Toby Fredson\Dwarven Expedition Pack - Stylized Assets\Prefabs\1. Main Prefab Folder.txt" />
     <None Include="Assets\PostProcessing-1\PostProcessing\Resources\Shaders\Bloom.shader" />
     <None Include="Assets\PostProcessing-1\PostProcessing\Resources\Shaders\Uber.shader" />
     <None Include="Assets\PostProcessing-1\PostProcessing\Resources\Shaders\DepthOfField.shader" />
@@ -279,6 +283,7 @@
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\Flooded_Grounds\Content\Shaders\FG_Triplanar_BumpSpec.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\Toby Fredson\Dwarven Expedition Pack - Stylized Assets\FreePack vs Full Pack\1. Free vs Full.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
     <None Include="Assets\Flooded_Grounds\Content\Shaders\FG_Skybox_Rotating.shader" />
     <None Include="Assets\Flooded_Grounds\Content\Shaders\FG_PBR_Water.shader" />

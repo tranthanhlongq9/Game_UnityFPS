@@ -53,7 +53,7 @@ public class PuzzleLeftPickup : MonoBehaviour
         ActionDisplay.SetActive(false);
         ActionText.SetActive(false);
     }
-    IEnumerator PuzzlePickedUp()
+    IEnumerator PuzzlePickedUp() //show mảnh gắp lên cho ng chơi xem
     {
         screenFade.SetActive(true);
         leftImg.SetActive(true);

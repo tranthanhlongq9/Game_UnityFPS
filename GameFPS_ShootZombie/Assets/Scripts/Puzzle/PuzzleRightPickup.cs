@@ -56,7 +56,7 @@ public class PuzzleRightPickup : MonoBehaviour
         ActionDisplay.SetActive(false);
         ActionText.SetActive(false);
     }
-    IEnumerator PuzzlePickedUp()
+    IEnumerator PuzzlePickedUp() //show mảnh gắp lên cho ng chơi xem
     {
         //fakeWall.SetActive(false);
         //realWall.SetActive(true);

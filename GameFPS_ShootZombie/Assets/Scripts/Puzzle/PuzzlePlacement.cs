@@ -10,6 +10,7 @@ public class PuzzlePlacement : MonoBehaviour
     public GameObject ActionText;
     //public GameObject ExtraCross;
     public GameObject puzzlePieces;
+    public string nameAni;
 
     public GameObject wall;
 
@@ -37,7 +38,7 @@ public class PuzzlePlacement : MonoBehaviour
                     ActionDisplay.SetActive(false);
                     ActionText.SetActive(false);
                     puzzlePieces.SetActive(true);
-                    wall.GetComponent<Animator>().Play("Puzzle");
+                    wall.GetComponent<Animator>().Play(nameAni);
 
                 }
             }
