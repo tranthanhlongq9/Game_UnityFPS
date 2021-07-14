@@ -11,7 +11,7 @@ public class MainMenuFunction2 : MonoBehaviour
     public GameObject loadButton;
     public int loadInt;
 
-    public void Start()
+    void Start()
     {
         loadInt = PlayerPrefs.GetInt("AutoSave");
         if (loadInt > 0)
